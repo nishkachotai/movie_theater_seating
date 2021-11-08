@@ -1,6 +1,6 @@
 import random
 x=0
-inputFile=open("InputFile.txt","w+")
+inputFile=open("Input.txt","w+")
 i=1
 while x<300:
      seatsReserved=random.randint(1,20)
