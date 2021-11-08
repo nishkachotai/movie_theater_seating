@@ -135,7 +135,7 @@ class BookingTheatre:   # Linked List to find the correct row and seats
             tnode.seatsEmpty = tnode.vacant_seat(seats)
             parent=self.delete(tnode)
             can_insert_continous_seats = True
-        elif (self.totalNodes is 0):
+        elif (self.totalNodes == 0):
             return can_insert_continous_seats
 
         return can_insert_continous_seats
