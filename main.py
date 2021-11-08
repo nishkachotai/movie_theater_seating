@@ -6,7 +6,7 @@
 # This program takes command line input of file path and shows the path to the output file with allocated seats to reservation ID.
 
 
-from inputFileParser import inputParser
+from inputParserFile import inputParser
 import os,sys
 import logging
 logging.basicConfig(filename='debug.log',level=logging.DEBUG)
